@@ -1,0 +1,56 @@
+#container {
+    border: 2px solid darkgray;
+    margin: 50px;
+    width: 500px;
+    height: 350px;
+}
+
+#top {
+    background-color: lightseagreen;
+    height: 80px;
+}
+
+#icon {
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+#icon #iconpic {
+    height: 60px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    justify-content: space-between;
+    position: relative;
+    left: 20px;
+    top: -30px;
+}
+#location #mapmarker {
+    height: 30px;
+}
+
+#infor {
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+p {
+    font-size: 15px;
+}
+
+#edit {
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+#edit #gear {
+    height: 20px;
+    margin-right: 10px;
+}
