@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .row {
     height: 80px;
     display: flex;
@@ -35,4 +36,43 @@
     height: 30px;
     text-align: left;
     padding: 25px;
+=======
+.row {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: ghostwhite;
+    margin-bottom: 20px;
+    
+}
+
+.col {
+    flex: 1;
+    background-color: cadetblue;
+    color: ghostwhite;
+    height: 30px;
+    text-align: left;
+    padding: 25px;
+    margin: 0px 20px;
+    }
+
+.col-2 {
+    flex:2;
+    background-color: cadetblue;
+    color: ghostwhite;
+    height: 30px;
+    text-align: left;
+    padding: 25px;
+    margin: 0px 20px;
+}
+
+.col-3 {
+    flex:3;
+    background-color: cadetblue;
+    color: ghostwhite;
+    height: 30px;
+    text-align: left;
+    padding: 25px;
+>>>>>>> ba4870b553826729df6168e9ce87692cb95ce838
     margin: 0px 20px;
