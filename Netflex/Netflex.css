@@ -1,0 +1,67 @@
+* {
+    font-family: 'Antonio', sans-serif;
+    color:ghostwhite;
+}
+
+body {
+    background-color: black;
+    padding: 20px;
+}
+
+#navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links {
+    display: flex;    
+    align-items: center;
+}
+
+h1 {
+    color: tomato;
+
+}
+#nav {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchbar {
+    color: darkgray;
+    background-color: black;
+    height: fit-content;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-align: center;
+}
+#icon {
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 20px;
+} 
+
+#shows {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.show {
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.show img {
+    height: 300px;
+    object-fit: cover;
+}
