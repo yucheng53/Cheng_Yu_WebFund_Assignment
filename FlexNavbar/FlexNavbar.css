@@ -8,13 +8,16 @@
     align-items: center;
     justify-content: space-between;    
 }
-h1 {
+
+.nav-title {
     margin-left: 20px;
     color: ghostwhite;
 }
-.nav ul {
+
+.nav-links {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     list-style: none;
 }
 
@@ -32,4 +35,9 @@ a:hover {
 
 li .btn {
     background-color: rgb(10, 124, 124);
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
 }

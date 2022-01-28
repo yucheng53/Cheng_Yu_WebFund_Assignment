@@ -1,0 +1,24 @@
+#back{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+}
+
+#white1{
+    background-color: white;
+    display:inline-block;
+    width: 80px;
+    height: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    
+}
+#white2{
+    background-color: white;
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    margin-top: 55px;
+    margin-left: -60px;
+}
