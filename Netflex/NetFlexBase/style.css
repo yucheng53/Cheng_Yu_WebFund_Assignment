@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: 'Antonio', sans-serif;
     color:ghostwhite;
@@ -6,4 +7,14 @@
 body {
     background-color: black;
     padding: 20px;
+=======
+* {
+    font-family: 'Antonio', sans-serif;
+    color:ghostwhite;
+}
+
+body {
+    background-color: black;
+    padding: 20px;
+>>>>>>> 921a1503f89167863b20c378827fcbe71fa119d9
 }
