@@ -6,10 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS library</title>
     <link rel="stylesheet" href="./CSSlibrary.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <div class="nav">
+        <h1 class="nav-title">Global Travel</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Plan</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div> 
     
+    <div id="container">
+        <div id="button">
+            <button class="book">Book Hotel</button>
+            <button class="book">Book Flights</button>
+            <button class="book">Book Cruises</button>
+            <button class="book">Book Combo</button>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <div class="nation"><strong>Europe</strong></div>
+                <ul>
+                    <li>Italy</li>
+                    <li>France</li>
+                    <li>German</li>
+                    <li>Spain</li>
+                </ul>
+                <a href="#">View More</a>
+            </div>
+            <div class="col-2">
+                <div class="nation"><strong>Asia</strong></div>
+                <ul>
+                    <li>China</li>
+                    <li>Japan</li>
+                    <li>Korea</li>
+                    <li>Thailand</li>
+                </ul>
+                <a href="#">View More</a>
+            </div>
+        </div> 
+    
+        <div class="row">
+            <div class="col-3">
+                <div class="nation"><strong>North America</strong></div>
+                <ul>
+                    <li>USA</li>
+                    <li>Canada</li>
+                    <li>Mexico</li>
+                </ul>
+                <a href="#">View More</a>
+            </div> 
+            <div class="col-4">
+                <div class="nation"><strong>Oceania</strong></div>
+                <ul>
+                    <li>Australia</li>
+                    <li>New Zealand</li>
+                </ul>
+                <a href="#">View More</a>
+            </div>
+        </div>
+
+    </div>
+    
+
+
     
 </body>
 </html>
