@@ -157,7 +157,7 @@ a {
     border-top: 2px solid #999;
 }
 
-.connections {
+#connections1, #connections2 {
     background-color: #eee;
     color: #333;
     font-size: 20px;
